@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "install:all": "npm install && npm run install:services",
-    "install:services": "concurrently \"cd backend && npm install\" \"cd gloogle-docs && npm install\" \"cd gloogle-mail && npm install\" \"cd gloogle-calendar && npm install\"",
+    "install:services": "concurrently \"cd backend && npm install\" \"cd gloogle-auth && npm install\" \"cd gloogle-docs && npm install\" \"cd gloogle-mail && npm install\" \"cd gloogle-calendar && npm install\"",
     "start": "concurrently \"npm run start:backend\" \"npm run start:docs\" \"npm run start:mail\" \"npm run start:calendar\" \"npm run start:auth\"",
     "start:backend": "cd backend && npm start",
     "start:docs": "cd gloogle-docs && npm run dev",

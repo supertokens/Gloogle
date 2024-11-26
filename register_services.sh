@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script registers the OAuth clients for the Gloogle services using the SuperTokens Unified Login feature
+# Each response is saved in a JSON file in the respective service directory, which is used to configure the service
+
 echo "Booting services..."
 
 curl -X POST https://try.supertokens.com/recipe/oauth/clients -H "Content-Type: application/json" -d '{
