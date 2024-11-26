@@ -1,0 +1,177 @@
+.mail-app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.mail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  background: #2a2a2a;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-left h1 {
+  color: #646cff;
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  width: 400px;
+  background: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.logout-button:hover {
+  border-color: #646cff;
+}
+
+.mail-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 256px;
+  padding: 1rem;
+  border-right: 1px solid #333;
+  background: #2a2a2a;
+}
+
+.compose-button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  background: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.compose-button:hover {
+  border-color: #646cff;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+  margin: 2px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background: #1a1a1a;
+}
+
+.nav-item.active {
+  background: #1a1a1a;
+  color: #646cff;
+}
+
+.email-list {
+  flex: 1;
+  overflow-y: auto;
+  background: #242424;
+}
+
+.email-item {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+}
+
+.email-item:hover {
+  background: #2a2a2a;
+}
+
+.email-item.unread {
+  background: #1a1a1a;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.email-from {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.email-date {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}
+
+.email-subject {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+
+.email-preview {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Scrollbar styling for Webkit browsers */
+.email-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.email-list::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.email-list::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.email-list::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}

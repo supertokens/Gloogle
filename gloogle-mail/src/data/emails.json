@@ -1,0 +1,84 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "subject": "Welcome to Gloogle",
+      "from": "Gloogle Team <team@gloogle.com>",
+      "preview": "Welcome to your new Gloogle account! We're excited to have you join us. Here are some tips to get started...",
+      "date": "Mar 15",
+      "read": false
+    },
+    {
+      "id": 2,
+      "subject": "Your Calendar Reminder",
+      "from": "Gloogle Calendar <calendar@gloogle.com>",
+      "preview": "You have an upcoming meeting 'Team Sync' tomorrow at 10:00 AM",
+      "date": "Mar 14",
+      "read": true
+    },
+    {
+      "id": 3,
+      "subject": "Security Alert",
+      "from": "security@gloogle.com",
+      "preview": "New sign-in detected from Windows device in San Francisco, CA",
+      "date": "Mar 14",
+      "read": false
+    },
+    {
+      "id": 4,
+      "subject": "Your Drive Storage is Almost Full",
+      "from": "drive-noreply@gloogle.com",
+      "preview": "You've used 90% of your storage. Consider upgrading your storage plan or freeing up space.",
+      "date": "Mar 13",
+      "read": true
+    },
+    {
+      "id": 5,
+      "subject": "Invitation to Collaborate",
+      "from": "Jane Smith <jane.smith@company.com>",
+      "preview": "I've shared a document 'Q2 Planning' with you. Click here to view and edit.",
+      "date": "Mar 13",
+      "read": false
+    },
+    {
+      "id": 6,
+      "subject": "Your Weekly Summary",
+      "from": "analytics@gloogle.com",
+      "preview": "Here's your weekly activity summary: 15 emails sent, 45 received, 3 meetings attended.",
+      "date": "Mar 12",
+      "read": true
+    },
+    {
+      "id": 7,
+      "subject": "Password Reset Request",
+      "from": "no-reply@gloogle.com",
+      "preview": "We received a request to reset your password. If this wasn't you, please secure your account.",
+      "date": "Mar 12",
+      "read": false
+    },
+    {
+      "id": 8,
+      "subject": "Weekend Project Update",
+      "from": "Mike Johnson <mike.j@freelance.com>",
+      "preview": "Hi! I've completed the initial designs. Please review and let me know your thoughts.",
+      "date": "Mar 11",
+      "read": true
+    },
+    {
+      "id": 9,
+      "subject": "Your Subscription Renewal",
+      "from": "billing@gloogle.com",
+      "preview": "Your Gloogle Workspace subscription will renew automatically in 7 days.",
+      "date": "Mar 11",
+      "read": true
+    },
+    {
+      "id": 10,
+      "subject": "Team Building Event",
+      "from": "hr@company.com",
+      "preview": "Join us for our monthly virtual team building event next Friday at 4 PM.",
+      "date": "Mar 10",
+      "read": true
+    }
+  ]
+}

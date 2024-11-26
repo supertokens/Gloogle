@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.solid:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.calendar-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.agenda-view {
+  background: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.date-header {
+  padding: 1rem;
+  background: #2a2a2a;
+  border-bottom: 1px solid #333;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.time-slots {
+  padding: 1rem;
+}
+
+.event-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #242424;
+  border-left: 3px solid #646cff;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.event-card:hover {
+  background: #2a2a2a;
+  transform: translateX(4px);
+}
+
+.event-time {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #646cff;
+  min-width: 90px;
+}
+
+.event-content {
+  flex: 1;
+}
+
+.event-title {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.event-location {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.user-email {
+  color: #888;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  color: rgb(255, 153, 51);
+}
+
+.footer a {
+  color: rgb(255, 153, 51);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #535bf2;
+}
