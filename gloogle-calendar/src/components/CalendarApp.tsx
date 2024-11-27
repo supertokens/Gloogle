@@ -1,4 +1,4 @@
-import { Component, createSignal, createEffect, For } from "solid-js";
+import { Component, createSignal, For, onMount } from "solid-js";
 import { useNavigate } from "@solidjs/router";
 import { authService } from "../services/auth";
 import type { CalendarEvent } from "../types/events";
@@ -9,7 +9,12 @@ const CalendarApp: Component = () => {
   const [user, setUser] = createSignal<any>(null);
   const [events, setEvents] = createSignal<CalendarEvent[]>([]);
 
-  createEffect(async () => {
+  onMount(async () => {
+    if (!(await authService.isAuthenticated())) {
+      navigate("/login", { replace: true });
+      return;
+    }
+
     const currentUser = await authService.getUser();
     setUser(currentUser);
 
